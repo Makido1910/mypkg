@@ -16,7 +16,7 @@ class Talker():
 def main():
     rclpy.init()
     node = Node("talker")
-    talker = Taker(node) #この1行でパブリッシャが動き出す。
+    talker = Talker(node) #この1行でパブリッシャが動き出す。
     rclpy.spin(node)
 
 if __name__ == '__main__':
