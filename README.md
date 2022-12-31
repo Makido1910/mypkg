@@ -1,3 +1,7 @@
+# 連続する数字の表示
+
+![test](https://github.com/Makido1910/mypkg/actions/workflows/test.yml/badge.svg)
+
 # テスト環境
 * Ubuntu 22.04.1 LTS
 * python
