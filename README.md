@@ -1,9 +1,10 @@
 # 連続する数字の表示
-* mypkgディレクトリ内にtalker.pyとlistener.pyというファイルがある
-  * talker.py: 連続する数字をメッセージとしてlistener.pyに送る
-  * listener.py: talker.pyから送られてきたメッセージをサブスクライブする
-* launchディレクトリ内にはtalk_listen.launch.pyというファイルがある
-  * talk_listen.launch.py: 1つの端末でtalker.pyとlistener.pyの2つのプログラムを同時に実行する
+* 連続する数字を順にlistener上で表示する
+  * mypkgディレクトリ内にtalker.pyとlistener.pyというファイルがある
+    * talker.py: 連続する数字をメッセージとしてlistener.pyに送る
+    * listener.py: talker.pyから送られてきたメッセージをサブスクライブする
+  * launchディレクトリ内にはtalk_listen.launch.pyというファイルがある
+    * talk_listen.launch.py: 1つの端末でtalker.pyとlistener.pyの2つのプログラムを同時に実行する
 
 ![test](https://github.com/Makido1910/mypkg/actions/workflows/test.yml/badge.svg)
 
@@ -45,10 +46,10 @@ $ ros2 launch mypkg talk_listen.launch.py     #Ctrl+Cで終了
 
 ```
 # テスト環境
-* ros2 
+* ROS2 
 * Ubuntu 22.04.1 LTS
 * python
-  * テスト済: 3.7～3.10
+  * テスト済: 3.10
 
 # ライセンス
 * このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます。
