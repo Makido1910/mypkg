@@ -1,8 +1,9 @@
 # 連続する数字の表示
-* 連続する数字を順にlistener上で表示する
+* このパッケージはROS2のパッケージである
+* 連続する数字を順に表示するメッセージをトピック上に発行し、サブスクライブする
   * mypkgディレクトリ内にtalker.pyとlistener.pyというファイルがある
-    * talker.py: 連続する数字をメッセージとしてlistener.pyに送る
-    * listener.py: talker.pyから送られてきたメッセージをサブスクライブする
+    * talker.py: 連続する数字をメッセージとしてトピック上に発行する
+    * listener.py: talker.pyからトピックに送られたメッセージをサブスクライブする
   * launchディレクトリ内にはtalk_listen.launch.pyというファイルがある
     * talk_listen.launch.py: 1つの端末でtalker.pyとlistener.pyの2つのプログラムを同時に実行する
 
